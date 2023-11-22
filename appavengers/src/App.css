@@ -1,0 +1,117 @@
+
+.div1{
+  height: 50vh;
+  border: 5px solid white;
+  width: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+  background-color: rgb(44, 44, 240);
+  border-radius: 3%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}.pic{
+  height: 40%;
+  width: 50%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.uper-div{
+border: 10px solid blue;
+height: 20%;
+margin-top: 27vh;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.main{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 30% 50%;
+}
+.google-docs-textarea {
+  margin-top: 5%;
+  width: 100vh;
+  height: 80vh; 
+  padding: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: rgba(111, 108, 108, 0.35) 0px 5px 15px;
+  resize: vertical; 
+  box-sizing: border-box; 
+}
+.google-title-textarea {
+  margin-top: 5%;
+  width: 10vh;
+  height: 6vh; 
+  padding: 2px;
+  font-size: 12px;
+  line-height: 1.5;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: rgba(111, 108, 108, 0.35) 0px 5px 15px;
+  resize: vertical; 
+  box-sizing: border-box; 
+}
+
+.nav {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex; /* To align buttons horizontally */
+  justify-content: space-around; /* Adjust alignment as needed */
+}
+
+.nav ul li {
+  margin: 0 10px; /* Adjust spacing between buttons */
+}
+
+.nav button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+.nav button:hover {
+  background-color: #555;
+}
+.document-grid{
+  border: 2px solid white;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10vh;
+  width: 90%;
+  margin-left: 8vh;
+  margin-top: 3vh;
+}
+.card {
+  padding: 1vh;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 30vh;
+  width: 30vh;
+  overflow-y: hidden;
+  word-wrap: break-word; /* Allows text to wrap within the container */
+}
+.card h3 {
+margin: auto;
+margin-left: 30%;
+ color: rgb(128, 17, 17);/* Allows text to wrap within the container */
+}
+
+.home-main{
+  display: flex;
+  gap: 5vh;
+  justify-content: center;
+  align-items: center;
+}
