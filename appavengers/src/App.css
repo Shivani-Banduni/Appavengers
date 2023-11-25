@@ -96,9 +96,10 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   margin-top: 3vh;
 }
 .card {
-  padding: 1vh;
+  padding: 2vh;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   height: 30vh;
+  font-size: 1vh;
   width: 30vh;
   overflow-y: hidden;
   word-wrap: break-word; /* Allows text to wrap within the container */
